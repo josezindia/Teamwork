@@ -182,7 +182,7 @@ class SimpleMailServerProtocol():
                 else:
                     print "Failure. Wrong password."
             else:
-                print "he should register first"
+                print "he should register"
                 connection.send(bytearray('You should register first.',encoding="utf-8"))
                 connection.close()
         else:
